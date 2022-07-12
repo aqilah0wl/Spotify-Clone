@@ -2,11 +2,11 @@ class Library {
   String label;
   String image;
   String liked;
-  Integer playlist;
+  int playlist;
 
-  Song(this.label, this.image, this.liked, this.playlist);
+  Library(this.label, this.image, this.liked, this.playlist);
 
-  Song.fromJson(Map<String, dynamic> json) {
+  Library.fromJson(Map<String, dynamic> json) {
     label = json['label'];
     image = json['image'];
     liked = json['liked'];
