@@ -1,4 +1,4 @@
-class String {
+class Search {
   String search;
   String label;
   String image;
